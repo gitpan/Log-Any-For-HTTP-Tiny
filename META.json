@@ -1,0 +1,49 @@
+{
+   "abstract" : "Add logging to HTTP::Tiny",
+   "author" : [
+      "Steven Haryanto <stevenharyanto@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300006, CPAN::Meta::Converter version 2.113640",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Log-Any-For-HTTP-Tiny",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::Rinci" : "0.01"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "HTTP::Tiny::Patch::LogAny" : "0.01",
+            "Log::Any" : 0,
+            "perl" : "5.010001"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "homepage" : "http://metacpan.org/release/Log-Any-For-HTTP-Tiny",
+      "repository" : {
+         "url" : "http://github.com/sharyanto/perl-Log-Any-For-HTTP-Tiny"
+      }
+   },
+   "version" : "0.01"
+}
+
